@@ -1,0 +1,25 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Inter',sans-serif;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+border-bottom:1px solid #ddd;
+position: sticky;
+top: 0;
+background-color: white;
+z-index: 1;
+}
+
+.nav2{
+    display:flex;
+    padding:10px;
+    justify-content:space-between;
+    gap:20px;
+}
